@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkPayments", "SparkPayments\SparkPayments.csproj", "{5B47BD16-7901-4FF0-A8D0-D46A9AAE8536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{6813BFB8-BB6E-42C6-9224-526B709A838B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B47BD16-7901-4FF0-A8D0-D46A9AAE8536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B47BD16-7901-4FF0-A8D0-D46A9AAE8536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B47BD16-7901-4FF0-A8D0-D46A9AAE8536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B47BD16-7901-4FF0-A8D0-D46A9AAE8536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6813BFB8-BB6E-42C6-9224-526B709A838B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6813BFB8-BB6E-42C6-9224-526B709A838B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6813BFB8-BB6E-42C6-9224-526B709A838B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6813BFB8-BB6E-42C6-9224-526B709A838B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AD158FF-D0E3-43BF-BA86-8B34ACC6021D}
+	EndGlobalSection
+EndGlobal

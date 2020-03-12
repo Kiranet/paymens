@@ -1,0 +1,21 @@
+﻿@using SparkPayments.Controllers
+@model CreateEditPaymentViewModel
+@{
+    var formAction = Model.PaymentId == 0 ? $"{nameof(PaymentsController.Add)}" :
+        $"{nameof(PaymentsController.Update)}";
+}
+
+<form asp-antiforgery="true" asp-action="@formAction">
+    <input asp-for="PaymentId" type="hidden"/>
+
+    <label asp-for="Amount"></label>
+    <input type="number" class="form-control" asp-for="Amount"/>
+
+    <label asp-for="Description"></label>
+    <input class="form-control" asp-for="Description"/>
+
+    <label asp-for="CategoryId">Category</label>
+    <select class="form-control" asp-for="CategoryId" asp-items="@Model.Categories"></select>
+
+    <input class="btn btn-primary" type="submit" value="Save"/>
+</form>
